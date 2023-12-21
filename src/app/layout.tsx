@@ -5,6 +5,8 @@ import { Header } from 'app/components/shared/Header';
 import { Footer } from 'app/components/shared/Footer';
 
 import 'app/sass/globals.sass';
+import { Hero } from 'app/components/home/Hero';
+import { Description } from 'app/components/home/Description';
 const inter = Inter({ subsets: ['latin'] });
 
 // export const metadata: Metadata = {
@@ -25,6 +27,8 @@ export default function RootLayout({
 		<html lang="es">
 			<body className={roboto.className}>
 				<Header />
+				<Hero />
+				<Description />
 				{children}
 				<Footer />
 			</body>
