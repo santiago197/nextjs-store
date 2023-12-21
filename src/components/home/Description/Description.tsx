@@ -18,7 +18,7 @@ export const Description = () => {
 	const buttonStyles = cx('Description__button', {
 		'Description__button--border': hasBorder,
 	});
-	console.log(buttonStyles);
+	//console.log(buttonStyles);
 	return (
 		<section className={styles.Description}>
 			<button
