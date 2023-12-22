@@ -1,9 +1,6 @@
 'use client';
 import styles from './error.module.sass';
-interface ErrorProps {
-	error: Error;
-	reset: () => void;
-}
+
 export default function ErrorProps({ error, reset }: ErrorProps) {
 	return (
 		<div className={styles.container}>
